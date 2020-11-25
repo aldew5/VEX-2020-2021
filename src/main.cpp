@@ -14,10 +14,13 @@
 #include <vex_triport.h>
 
 using namespace vex;
+using namespace std;
 
 int main() {
   // Initializing Robot Configuration. DO NOT REMOVE!
   vexcodeInit();
+  Brain.Screen.print("Hello World\n");
+  Brain.Screen.print("The Clank boys are in business");
 
 
     
